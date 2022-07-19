@@ -1,0 +1,981 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="ProgId" content="Excel.Sheet">
+  <meta name="Generator" content="WPS Office ET">
+  <link id="Main-File" rel="Main-File" href="../入库单.htm">
+  <link rel="File-List" href="filelist.xml">
+  <link rel="Stylesheet" href="stylesheet.css">
+  <style>
+<!-- @page
+	{margin:1.00in 0.75in 1.00in 0.75in;
+	mso-header-margin:0.50in;
+	mso-footer-margin:0.50in;}
+ -->  </style>
+  <!--[if gte mso 9]>
+   <xml>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>280</x:DefaultRowHeight>
+     <x:StandardWidth>2276</x:StandardWidth>
+     <x:FreezePanes/>
+     <x:FrozenNoSplit/>
+     <x:SplitHorizontal>1</x:SplitHorizontal>
+     <x:TopRowBottomPane>44</x:TopRowBottomPane>
+     <x:ActivePane>2</x:ActivePane>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>2</x:Number>
+       <x:ActiveCol>4</x:ActiveCol>
+       <x:ActiveRow>56</x:ActiveRow>
+       <x:RangeSelection>E57</x:RangeSelection>
+      </x:Pane>
+      <x:Pane>
+       <x:Number>3</x:Number>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+     <x:PageBreakZoom>100</x:PageBreakZoom>
+     <x:Zoom>115</x:Zoom>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+     </x:Print>
+    </x:WorksheetOptions>
+    <x:ConditionalFormatting>
+     <x:Range>$E$1</x:Range>
+    </x:ConditionalFormatting>
+    <x:ConditionalFormatting>
+     <x:Range>$G$1:J1</x:Range>
+     <x:Condition>
+      <x:Value1>IF($A$2=&quot;&quot;,TEXT(TODAY(),&quot;yyyy/mm/dd hh:mm:ss&quot;))</x:Value1>
+      <x:Format Style='mso-number-format:"yyyy/m/d\;\@";'/>
+     </x:Condition>
+    </x:ConditionalFormatting>
+    <x:ConditionalFormatting>
+     <x:Range>$K$1</x:Range>
+    </x:ConditionalFormatting>
+    <x:ConditionalFormatting>
+     <x:Range>$H$10:J10</x:Range>
+    </x:ConditionalFormatting>
+    <x:ConditionalFormatting>
+     <x:Range>$M$10</x:Range>
+    </x:ConditionalFormatting>
+    <x:ConditionalFormatting>
+     <x:Range>$J$25</x:Range>
+    </x:ConditionalFormatting>
+    <x:ConditionalFormatting>
+     <x:Range>$J$32</x:Range>
+    </x:ConditionalFormatting>
+    <x:ConditionalFormatting>
+     <x:Range>$B$37</x:Range>
+    </x:ConditionalFormatting>
+   </xml>
+  <![endif]-->
+  <script language="JavaScript">
+	if (window.name!="frSheet")
+		window.location.replace("../入库单.htm");
+	else
+		parent.fnUpdateTabs(1);
+</script>
+ </head>
+ <body link="blue" vlink="purple">
+  <table width="1940" border="0" cellpadding="0" cellspacing="0" style='width:970.00pt;border-collapse:collapse;table-layout:fixed;'>
+   <col width="54.20" style='mso-width-source:userset;mso-width-alt:1321;'/>
+   <col width="395.30" class="xl88" style='mso-width-source:userset;mso-width-alt:9637;'/>
+   <col width="196.60" class="xl89" style='mso-width-source:userset;mso-width-alt:4793;'/>
+   <col width="62.30" style='mso-width-source:userset;mso-width-alt:1518;'/>
+   <col width="106.30" style='mso-width-source:userset;mso-width-alt:2591;'/>
+   <col width="82.80" class="xl90" style='mso-width-source:userset;mso-width-alt:2018;'/>
+   <col width="130.80" span="2" style='mso-width-source:userset;mso-width-alt:3188;'/>
+   <col width="84.30" style='mso-width-source:userset;mso-width-alt:2055;'/>
+   <col width="100.90" style='mso-width-source:userset;mso-width-alt:2459;'/>
+   <col width="116.10" span="2" style='mso-width-source:userset;mso-width-alt:2830;'/>
+   <col width="167.90" class="xl83" style='mso-width-source:userset;mso-width-alt:4093;'/>
+   <col width="97.80" span="2" style='width:48.90pt;'/>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl91" height="28" width="54.20" style='height:14.00pt;width:27.10pt;' x:str>序号</td>
+    <td class="xl91" width="395.30" style='width:197.65pt;' x:str>名称</td>
+    <td class="xl92" width="196.60" style='width:98.30pt;' x:str>序列号</td>
+    <td class="xl93" width="62.30" style='width:31.15pt;' x:str>件数</td>
+    <td class="xl91" width="106.30" style='width:53.15pt;' x:str>快递</td>
+    <td class="xl94" width="82.80" style='width:41.40pt;' x:str>运单号</td>
+    <td class="xl95" width="130.80" style='width:65.40pt;' x:str>申请日期</td>
+    <td class="xl95" width="130.80" style='width:65.40pt;' x:str>完成日期</td>
+    <td class="xl95" width="84.30" style='width:42.15pt;' x:str>销售</td>
+    <td class="xl95" width="100.90" style='width:50.45pt;' x:str>客户</td>
+    <td class="xl95" width="116.10" style='width:58.05pt;' x:str>问题</td>
+    <td width="116.10" style='width:58.05pt;' x:str>诉求</td>
+    <td class="xl83" width="167.90" style='width:83.95pt;' x:str>备注</td>
+    <td width="97.80" style='width:48.90pt;' x:str>备注</td>
+    <td width="97.80" style='width:48.90pt;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Decklink 4K Extreme 12G</td>
+    <td class="xl89" x:num>6162043</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90" x:str>jdx00125<span style='display:none;'>3570704</span></td>
+    <td class="xl96" align="right" x:num="43893.">2020/3/3</td>
+    <td class="xl96" align="right" x:num="43925.">2020/4/4</td>
+    <td class="xl96" colspan="2" style='mso-ignore:colspan;'></td>
+    <td x:str>卡不识别</td>
+    <td x:str>换新</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Decklink 8K Pro</td>
+    <td class="xl89" x:num>6206069</td>
+    <td align="right" x:num>1</td>
+    <td x:str>郭强直发</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="43899.">2020/3/9</td>
+    <td class="xl96" colspan="3" style='mso-ignore:colspan;'></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Micro Converter SDI to HDMI</td>
+    <td class="xl89" x:num>6107342</td>
+    <td align="right" x:num>1</td>
+    <td x:str>京东</td>
+    <td class="xl90" x:str>jdx00126<span style='display:none;'>7830709</span></td>
+    <td class="xl96" align="right" x:num="43902.">2020/3/12</td>
+    <td class="xl96" align="right" x:num="43965.">2020/5/14</td>
+    <td class="xl96" colspan="2" style='mso-ignore:colspan;'></td>
+    <td x:str>晃动有声音</td>
+    <td x:str>换新</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Decklink mini Recorder</td>
+    <td class="xl89" x:num>5844846</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="43936.">2020/4/15</td>
+    <td class="xl96" align="right" x:num="43944.">2020/4/23</td>
+    <td class="xl96" colspan="2" style='mso-ignore:colspan;'></td>
+    <td x:str>SDI无信号</td>
+    <td x:str>返修</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="84" style='height:42.00pt;'>
+    <td height="84" style='height:42.00pt;'></td>
+    <td class="xl88" x:str>DaVinci Resolve Studio</td>
+    <td class="xl89" x:str>6479736 6480318 6484108 6484113 6485682</td>
+    <td align="right" x:num>5</td>
+    <td class="xl69" rowspan="2" style='border-right:none;border-bottom:none;' x:str>京东</td>
+    <td class="xl90" rowspan="2" x:str>JDX001611761614</td>
+    <td class="xl97" rowspan="2" style='border-right:none;border-bottom:none;' x:num="43948.">2020/4/27</td>
+    <td class="xl96" align="right" x:num="43948.">2020/4/27</td>
+    <td class="xl96" colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl84" x:str>强氧配货错误</td>
+    <td class="xl83" x:str>换</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Decklink 4K Extreme 12G</td>
+    <td class="xl89" x:num>6257256</td>
+    <td align="right" x:num>1</td>
+    <td class="xl98" align="right" x:num="44011.">2020/6/29</td>
+    <td class="xl98" x:str>超飞</td>
+    <td class="xl98"></td>
+    <td class="xl83" x:str>不识别</td>
+    <td class="xl83" x:str>换新</td>
+    <td class="xl83" x:str>换新号码6548640</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl99" x:str>Decklink 4k Extreme 12G</td>
+    <td class="xl100" x:num>6480545</td>
+    <td align="right" x:num>1</td>
+    <td x:str>京东</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="43960.">2020/5/9</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td x:str>（何园）</td>
+    <td x:str>不识别</td>
+    <td x:str>换新</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="30" style='height:15.00pt;mso-height-source:userset;mso-height-alt:300;'>
+    <td height="30" style='height:15.00pt;'></td>
+    <td class="xl101" x:str>propanel MK II (强氧Pro Panel）</td>
+    <td class="xl102" x:str>QYCX100102069</td>
+    <td class="xl103" align="right" x:num="1.">1<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td x:str>客户直发</td>
+    <td class="xl104"></td>
+    <td class="xl96" align="right" x:num="43982.">2020/5/31</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+    <td class="xl120" x:str>京东-换新</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl105" x:str>ATEM Mini Pro</td>
+    <td class="xl102" x:num>6604283</td>
+    <td class="xl106" align="right" x:num>1</td>
+    <td class="xl107" rowspan="2" style='border-right:none;border-bottom:none;' x:str>顺丰</td>
+    <td class="xl108" rowspan="2" style='border-right:none;border-bottom:none;' x:str>SF1075662775116</td>
+    <td class="xl107" rowspan="2" style='border-right:none;border-bottom:none;' x:num="43999.">2020/6/17</td>
+    <td class="xl109" colspan="3" style='mso-ignore:colspan;'></td>
+    <td class="xl106" colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl106" x:str>京东</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Ultimatte 11</td>
+    <td class="xl89" x:num>4116288</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+    <td class="xl83" x:str>自己</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Decklink Quad HDMI recorder</td>
+    <td class="xl89" x:num>6525574</td>
+    <td align="right" x:num>1</td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44007.">2020/6/25</td>
+    <td class="xl96" align="right" x:num="44085.">2020/9/11</td>
+    <td class="xl96" colspan="2" style='mso-ignore:colspan;'></td>
+    <td x:str>不识别</td>
+    <td x:str>换新</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl105" x:str>WEB presenter</td>
+    <td class="xl89" x:num>6568977</td>
+    <td align="right" x:num>1</td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td></td>
+    <td class="xl96" align="right" x:num="44014.">2020/7/2</td>
+    <td class="xl96" colspan="2" style='mso-ignore:colspan;'></td>
+    <td></td>
+    <td x:str>维修</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Decklink Studio 4K</td>
+    <td class="xl89" x:num>6223986</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td></td>
+    <td class="xl96" align="right" x:num="44015.">2020/7/3</td>
+    <td class="xl96" x:str>王增杰</td>
+    <td class="xl96" x:str>于永杰</td>
+    <td></td>
+    <td x:str>维修</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>ATEM Television Studio Pro HD</td>
+    <td class="xl89" x:num>6228307</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td></td>
+    <td class="xl96" align="right" x:num="44016.">2020/7/4</td>
+    <td class="xl96" colspan="2" style='mso-ignore:colspan;'></td>
+    <td></td>
+    <td x:str>维修</td>
+    <td class="xl83" x:str>维修返回</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Decklink 8K pro</td>
+    <td class="xl89" x:num>6886588</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44054.">2020/8/11</td>
+    <td class="xl96" align="right" x:num="44157.">2020/11/22</td>
+    <td colspan="3" style='mso-ignore:colspan;'></td>
+    <td x:str>DOA换新</td>
+    <td class="xl83" x:str>新号7273035</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>web presenter</td>
+    <td class="xl89" x:str>6668196(6668800)</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44074.">2020/8/31</td>
+    <td class="xl96" align="right" x:num="44157.">2020/11/22</td>
+    <td x:str>张凤娣</td>
+    <td></td>
+    <td x:str>不通电</td>
+    <td x:str>DOA</td>
+    <td class="xl114" x:str>新号 7253183</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Camera Fiber Converter</td>
+    <td class="xl89" x:num>5420091</td>
+    <td align="right" x:num>1</td>
+    <td class="xl110" rowspan="2" style='border-right:none;border-bottom:none;' x:str>快递小费下单</td>
+    <td class="xl111" rowspan="2" style='border-right:none;border-bottom:none;'></td>
+    <td class="xl97" rowspan="2" style='border-right:none;border-bottom:none;' x:num="44074.">2020/8/31</td>
+    <td></td>
+    <td class="xl69" rowspan="2" style='border-right:none;border-bottom:none;' x:str>王增杰</td>
+    <td class="xl69" rowspan="2" style='border-right:none;border-bottom:none;' x:str>青岛</td>
+    <td x:str>低电压报警</td>
+    <td x:str>换新</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>富士16*8</td>
+    <td class="xl89"></td>
+    <td align="right" x:num>1</td>
+    <td x:str>?</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl101" x:str>Micro Converter SDI to HDMI wPSU</td>
+    <td class="xl112" x:str>6518684</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td class="xl96"></td>
+    <td class="xl96" align="right" x:num="44075.">2020/9/1</td>
+    <td class="xl96" x:str>王增杰</td>
+    <td x:str>黄春妹</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl83" x:str>换新7035344</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Decklink 4K Extreme 12G</td>
+    <td class="xl89" x:num>6548640</td>
+    <td align="right" x:num>1</td>
+    <td x:str>送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44090.">2020/9/16</td>
+    <td class="xl96" align="right" x:num="44116.">2020/10/12</td>
+    <td x:str>王艳霞</td>
+    <td x:str>及艳忠</td>
+    <td x:str>不识别</td>
+    <td x:str>维修</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Smart Videohub 20*20</td>
+    <td class="xl112" x:str>6962036</td>
+    <td class="xl103" align="right" x:num="1.">1<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td></td>
+    <td class="xl90"></td>
+    <td></td>
+    <td class="xl96" align="right" x:num="44093.">2020/9/19</td>
+    <td class="xl96" x:str>王延雷</td>
+    <td class="xl96"></td>
+    <td></td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str>上海东奥6540499</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>ATEM mini Pro lso</td>
+    <td class="xl89" x:num>6983828</td>
+    <td align="right" x:num>1</td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44095.">2020/9/21</td>
+    <td class="xl96" align="right" x:num="44119.">2020/10/15</td>
+    <td x:str>王艳霞</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td x:str>换新</td>
+    <td class="xl106" colspan="3" style='mso-ignore:colspan;' x:str>先发新号6907250 换新6990850</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Blackmagic Camera Fiber Converter</td>
+    <td class="xl112" x:str>7106174</td>
+    <td class="xl103" align="right" x:num="1.">1<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td></td>
+    <td class="xl96" align="right" x:num="44098.">2020/9/24</td>
+    <td class="xl96" x:str>王增杰</td>
+    <td class="xl96"></td>
+    <td></td>
+    <td x:str>DOA换新</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl114" x:str>Decklink 4K extreme 12G</td>
+    <td class="xl115" x:num>6965440</td>
+    <td class="xl106" align="right" x:num>1</td>
+    <td class="xl116" x:str>送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44099.">2020/9/25</td>
+    <td class="xl96" align="right" x:num="44142.">2020/11/7</td>
+    <td x:str>王增杰</td>
+    <td class="xl105" x:str>天津来力</td>
+    <td x:str>不识别</td>
+    <td x:str>DOA换新</td>
+    <td class="xl114" x:str>新号7123393</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Ultimatte 11</td>
+    <td class="xl89" x:num>4111352</td>
+    <td align="right" x:num>1</td>
+    <td x:str>送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44120.">2020/10/16</td>
+    <td class="xl96" align="right" x:num="44160.">2020/11/25</td>
+    <td x:str>王增杰</td>
+    <td x:str>小象传媒</td>
+    <td x:str>不识别</td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str>维修失败</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>propanel MK II (强氧Pro Panel）</td>
+    <td class="xl113" x:str>QYCX100101991</td>
+    <td align="right" x:num>1</td>
+    <td x:str>韵达</td>
+    <td class="xl90" x:str="'3103996540871">31039965<span style='display:none;'>40871</span></td>
+    <td class="xl96" align="right" x:num="44123.">2020/10/19</td>
+    <td></td>
+    <td x:str>王艺兴</td>
+    <td x:str>不三公司</td>
+    <td class="xl121" x:str>一个色轮坏了</td>
+    <td x:str>维修</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>DeckLink Quad HDMI Recorder</td>
+    <td class="xl112" x:str>6049932</td>
+    <td align="right" x:num>1</td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44133.">2020/10/29</td>
+    <td class="xl96"></td>
+    <td x:str>王艺兴</td>
+    <td x:str>京东</td>
+    <td></td>
+    <td x:str>维修</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Decklink Quad HDMI Recorder</td>
+    <td class="xl89" x:num>6032967</td>
+    <td align="right" x:num>1</td>
+    <td x:str>库存-送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44176.">2020/12/11</td>
+    <td class="xl96" align="right" x:num="44176.">2020/12/11</td>
+    <td x:str>公司</td>
+    <td></td>
+    <td x:str>晃动有声音</td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str>风扇掉落，自修</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>ATEM Television Studio Pro 4K</td>
+    <td class="xl89" x:num>7371442</td>
+    <td align="right" x:num>1</td>
+    <td x:str>送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44180.">2020/12/15</td>
+    <td class="xl97" x:num="44188.">2020/12/23</td>
+    <td x:str>王延雷</td>
+    <td x:str>国资委</td>
+    <td x:str>按键无效</td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str>维修返回</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>duo 2</td>
+    <td class="xl89" x:num>6845445</td>
+    <td align="right" x:num>1</td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44200.">2021/1/4</td>
+    <td></td>
+    <td x:str>王艺兴</td>
+    <td colspan="3" style='mso-ignore:colspan;'></td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Decklink 4K Extreme 12G</td>
+    <td class="xl89" x:num>7290322</td>
+    <td align="right" x:num>1</td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td></td>
+    <td class="xl96" align="right" x:num="44201.">2021/1/5</td>
+    <td x:str>王艺兴</td>
+    <td class="xl122" x:str>张呈明</td>
+    <td x:str>不识别</td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str>换新7457479</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td x:str>BlackMagic MultiView 4</td>
+    <td x:str>4946694无包装</td>
+    <td class="xl103" align="right" x:num="1.">1<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td x:str>送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44207.">2021/1/11</td>
+    <td class="xl96" align="right" x:num="44201.">2021/1/5</td>
+    <td class="xl69" rowspan="2" style='border-right:none;border-bottom:none;' x:str>王延雷</td>
+    <td class="xl69" rowspan="2" style='border-right:none;border-bottom:none;' x:str>正保</td>
+    <td></td>
+    <td class="xl69" rowspan="2" style='border-right:none;border-bottom:none;' x:str>维修</td>
+    <td class="xl83" x:str>维修</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td x:str>BlackMagic MultiView 4</td>
+    <td x:str>4946632无包装</td>
+    <td align="right" x:num>1</td>
+    <td x:str>送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44207.">2021/1/11</td>
+    <td class="xl117" align="right" x:num="44231.">2021/2/4</td>
+    <td></td>
+    <td class="xl83" x:str>换新7688968</td>
+    <td class="xl113"></td>
+    <td></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Video Assist 5&quot; 3G</td>
+    <td align="right" x:num>6837913</td>
+    <td align="right" x:num>1</td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td></td>
+    <td class="xl96" align="right" x:num="44212.">2021/1/16</td>
+    <td x:str>王增杰</td>
+    <td x:str>耿高生</td>
+    <td></td>
+    <td x:str>换新</td>
+    <td class="xl114" x:str>新号6838546</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td x:str>BlackMagic MultiView 4</td>
+    <td x:str>4622095无包装</td>
+    <td class="xl103" align="right" x:num="1.">1<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td x:str>快递</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44215.">2021/1/19</td>
+    <td class="xl96" align="right" x:num="44224.">2021/1/28</td>
+    <td x:str>王延雷</td>
+    <td x:str>正保</td>
+    <td></td>
+    <td x:str>维修</td>
+    <td class="xl83" x:str>维修</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl118" x:str>Decklink Mini monitor</td>
+    <td class="xl118" x:num>7495570</td>
+    <td align="right" x:num>1</td>
+    <td x:str>快递</td>
+    <td class="xl90" x:str>SF109688<span style='display:none;'>5701936</span></td>
+    <td class="xl96" align="right" x:num="44225.">2021/1/29</td>
+    <td class="xl96" align="right" x:num="44266.">2021/3/11</td>
+    <td x:str>王增杰</td>
+    <td x:str>-</td>
+    <td x:str>快递包装破<span style='display:none;'>损</span></td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str>换新 7729219</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>UltraStudio 4k mini</td>
+    <td class="xl89" x:num>6526160</td>
+    <td align="right" x:num>1</td>
+    <td class="xl69" rowspan="2" style='border-right:none;border-bottom:none;' x:str>快递</td>
+    <td class="xl111" rowspan="2" style='border-right:none;border-bottom:none;' x:str>SF1106921497747</td>
+    <td class="xl96" align="right" x:num="44253.">2021/2/26</td>
+    <td class="xl96" align="right" x:num="44265.">2021/3/10</td>
+    <td x:str>王延雷</td>
+    <td x:str>四达时代</td>
+    <td x:str>不识别</td>
+    <td x:str>维修</td>
+    <td x:str>维修</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td x:str>Mini Converter Optical Fiber 12G</td>
+    <td class="xl89" x:num>6559841</td>
+    <td align="right" x:num>1</td>
+    <td class="xl96" align="right" x:num="44253.">2021/2/26</td>
+    <td class="xl96" align="right" x:num="44294.">2021/4/8</td>
+    <td x:str>王延雷</td>
+    <td x:str>冠华信达</td>
+    <td></td>
+    <td x:str>维修</td>
+    <td class="xl83" x:str>换新 7802108</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Mini Converter UpDownCross HD</td>
+    <td class="xl113" x:str>7389453拆</td>
+    <td align="right" x:num>1</td>
+    <td x:str>快递</td>
+    <td class="xl90" x:str>SF110646<span style='display:none;'>8680287</span></td>
+    <td class="xl96" align="right" x:num="44259.">2021/3/4</td>
+    <td class="xl96" align="right" x:num="44278.">2021/3/23</td>
+    <td x:str>王延雷</td>
+    <td x:str>冠华信达</td>
+    <td></td>
+    <td x:str>维修</td>
+    <td class="xl83" x:str>换新 8011404</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>DeckLink Mini Monitor 4K</td>
+    <td class="xl89" x:num>7315447</td>
+    <td align="right" x:num>1</td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44263.">2021/3/8</td>
+    <td></td>
+    <td x:str>王增杰</td>
+    <td class="xl123" x:str>耿高生</td>
+    <td></td>
+    <td x:str>维修</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Decklink 4K extreme 12G</td>
+    <td class="xl113" x:str>7698409已拆</td>
+    <td align="right" x:num>1</td>
+    <td x:str>送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44269.">2021/3/14</td>
+    <td class="xl96" align="right" x:num="44300.">2021/4/14</td>
+    <td x:str>王增杰</td>
+    <td x:str>张凤娣</td>
+    <td x:str>达芬奇软件<span style='display:none;'>崩溃</span></td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str>换新 7901654</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>BlackMagic MultiView 4</td>
+    <td class="xl113" x:str>4946726无包装</td>
+    <td align="right" x:num>1</td>
+    <td x:str>送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44305.">2021/4/19</td>
+    <td class="xl96" align="right" x:num="44323.">2021/5/7</td>
+    <td x:str>王延雷</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td x:str>维修</td>
+    <td x:str>维修</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>ATEM Mini Pro</td>
+    <td class="xl113" x:str>8021055已拆</td>
+    <td class="xl119" align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44307.">2021/4/21</td>
+    <td class="xl96" align="right" x:num="44307.">2021/4/21</td>
+    <td x:str>王增杰</td>
+    <td x:str>李东</td>
+    <td></td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str>刷新已好</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Video Assist 7&quot; 12G HDR</td>
+    <td class="xl113" x:str>7727212已拆</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44311.">2021/4/25</td>
+    <td class="xl96" align="right" x:num="44329.">2021/5/13</td>
+    <td x:str>王艳霞</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str>新号8146879</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>BlackMagic MultiView 4</td>
+    <td class="xl89" x:str>4946727已拆</td>
+    <td class="xl113" x:str>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44329.">2021/5/13</td>
+    <td class="xl96" align="right" x:num="44339.">2021/5/23</td>
+    <td x:str>王艳霞</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str>新号8233086</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Decklink SDI 4K</td>
+    <td class="xl113" x:str>7499564已拆</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44324.">2021/5/8</td>
+    <td class="xl96" align="right" x:num="44327.">2021/5/11</td>
+    <td x:str>王增杰</td>
+    <td x:str>郭伟</td>
+    <td></td>
+    <td x:str>返修</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>ATEM 1 M/E Production Studio 4K</td>
+    <td class="xl113" x:str>7126187已拆</td>
+    <td align="right" x:num>1</td>
+    <td x:str>快递</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44365.">2021/6/18</td>
+    <td class="xl96" align="right" x:num="44372.">2021/6/25</td>
+    <td x:str>王增杰</td>
+    <td x:str>寰宇佳视</td>
+    <td></td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str><span style='mso-spacerun:yes;'>&nbsp;</span>维修</td>
+    <td colspan="2" style='mso-ignore:colspan;' x:str>新货已先发</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl109" x:str>Decklink Mini Monitor</td>
+    <td class="xl109" align="right" x:num>7729585</td>
+    <td class="xl106" align="right" x:num>1</td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td></td>
+    <td class="xl96" align="right" x:num="44364.">2021/6/17</td>
+    <td x:str>王增杰</td>
+    <td x:str>刘米</td>
+    <td></td>
+    <td x:str>换新</td>
+    <td class="xl83" x:str>新号8366141</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>MultiView 4</td>
+    <td class="xl113" x:str>4946405已拆</td>
+    <td align="right" x:num>1</td>
+    <td x:str>送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44370.">2021/6/23</td>
+    <td class="xl96" align="right" x:num="44399.">2021/7/22</td>
+    <td x:str>王延雷</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td x:str>维修</td>
+    <td x:str>维修</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Mini Converter SDI Distribution 4K</td>
+    <td class="xl113" x:str>7121962无包装</td>
+    <td align="right" x:num>1</td>
+    <td x:str>送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44378.">2021/7/1</td>
+    <td class="xl96" align="right" x:num="44394.">2021/7/17</td>
+    <td x:str>王艺兴</td>
+    <td x:str>京东</td>
+    <td></td>
+    <td x:str>维修</td>
+    <td class="xl83" x:str>换新8388794</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Ultimatte 11</td>
+    <td class="xl113" x:str>4865910已拆</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44394.">2021/7/17</td>
+    <td></td>
+    <td x:str>王延雷</td>
+    <td x:str>横店</td>
+    <td></td>
+    <td x:str>维修</td>
+    <td class="xl83" x:str>直接返回</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>Micro SDI to HDMI 3G</td>
+    <td class="xl89" x:num>8282751</td>
+    <td align="right" x:num>1</td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44400.">2021/7/23</td>
+    <td class="xl96" align="right" x:num="44407.">2021/7/30</td>
+    <td x:str>王增杰</td>
+    <td x:str>吉河嘉业</td>
+    <td></td>
+    <td x:str>维修</td>
+    <td class="xl83" x:str>没问题</td>
+    <td x:str>已返回</td>
+    <td></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl88" x:str>HyperDeck Studio HD Mini</td>
+    <td class="xl89" x:num>8740952</td>
+    <td align="right" x:num>1</td>
+    <td x:str>送货</td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44494.">2021/10/25</td>
+    <td class="xl96" align="right" x:num="44499.">2021/10/30</td>
+    <td x:str>王增杰</td>
+    <td x:str>国绩</td>
+    <td></td>
+    <td x:str>换新</td>
+    <td class="xl113" x:str>新号8972618</td>
+    <td x:str>换新</td>
+    <td></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Decklink 4K Extreme 12G</td>
+    <td class="xl89" x:num>8928872</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td></td>
+    <td class="xl96" align="right" x:num="44532.">2021/12/2</td>
+    <td colspan="3" style='mso-ignore:colspan;'></td>
+    <td x:str>换新</td>
+    <td class="xl113" x:str>新号9042591</td>
+    <td x:str>换新</td>
+    <td></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl113" x:str>Decklink 4K Extreme 12G</td>
+    <td class="xl89" x:num>8928888</td>
+    <td align="right" x:num>1</td>
+    <td x:str>客户直发</td>
+    <td class="xl90"></td>
+    <td></td>
+    <td class="xl96" align="right" x:num="44560.">2021/12/30</td>
+    <td x:str>王增杰</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td x:str>换新</td>
+    <td class="xl113" x:str>新9228683</td>
+    <td x:str>换新</td>
+    <td></td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td height="28" style='height:14.00pt;'></td>
+    <td class="xl106" x:str>blackmagic<span style='mso-spacerun:yes;'>&nbsp; </span>Studio Camera 4K Pro</td>
+    <td class="xl109" align="right" x:num>9091479</td>
+    <td align="right" x:num>1</td>
+    <td></td>
+    <td class="xl90"></td>
+    <td class="xl96" align="right" x:num="44636.">2022/3/16</td>
+    <td></td>
+    <td x:str>王艳霞</td>
+    <td x:str>腾勇</td>
+    <td x:str>拆封有划痕</td>
+    <td x:str>换新</td>
+    <td class="xl83"></td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+   </tr>
+   <![if supportMisalignedColumns]>
+    <tr width="0" style='display:none;'>
+     <td width="54" style='width:27;'></td>
+     <td width="395" style='width:198;'></td>
+     <td width="197" style='width:98;'></td>
+     <td width="62" style='width:31;'></td>
+     <td width="106" style='width:53;'></td>
+     <td width="83" style='width:41;'></td>
+     <td width="131" style='width:65;'></td>
+     <td width="84" style='width:42;'></td>
+     <td width="101" style='width:50;'></td>
+     <td width="116" style='width:58;'></td>
+     <td width="168" style='width:84;'></td>
+    </tr>
+   <![endif]>
+  </table>
+ </body>
+</html>
